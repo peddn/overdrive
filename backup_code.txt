@@ -1,0 +1,45 @@
+            <div class="jumbotron">
+
+                <div id="overdrive-carousel" class="carousel slide override-carousel" data-ride="carousel" data-interval="10000">
+
+                    <ol class="carousel-indicators">
+
+                        <li data-target="#overdrive-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#overdrive-carousel" data-slide-to="1"></li>
+                        <li data-target="#overdrive-carousel" data-slide-to="2"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img src="<?php bloginfo('template_url'); ?>/img/carousel/01.png" />
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="<?php bloginfo('template_url'); ?>/img/carousel/02.png" />
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="<?php bloginfo('template_url'); ?>/img/carousel/03.png" />
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a class="left carousel-control" href="#overdrive-carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+
+                    <a class="right carousel-control" href="#overdrive-carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                </div>  
+
+            </div>

@@ -1,0 +1,141 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+@font-face {
+    font-family: erodedHeadings;
+    src: url(../fonts/3rd_Man.otf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: erodedHeadings;
+    
+    color: #555;
+}
+
+body {
+
+    padding-bottom: 20px;
+    
+    background-color: #000000;
+    
+    color: #adadad;
+    
+}
+
+.center  {
+    
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.brand-image {
+    
+    margin-top: -5px;
+    
+}
+
+.navbar-image {
+    
+    margin-bottom: -11px;
+    margin-top: -14px;
+    
+}
+
+.jumbotron {
+    background-color: #000000;
+    color: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.override-carousel {
+    
+    width: 558px;
+    margin: 0 auto;
+    
+}
+
+.override-navbar {
+    
+    margin-bottom: 0;
+    
+}
+
+.navbar-form.navbar-right:last-child {
+    
+     margin-right: 0;    
+    
+}
+
+.mar-top-10 {
+    
+    margin-top: 10px;
+    
+}
+
+.mar-top-20 {
+    
+    margin-top: 20px;
+    
+}
+
+.mar-top-30 {
+    
+    margin-top: 30px;
+    
+}
+
+.mar-bot-10 {
+    
+    margin-bottom: 10px;
+    
+}
+
+.mar-bot-20 {
+    
+    margin-bottom: 20px;
+    
+}
+
+.mar-bot-30 {
+    
+    margin-bottom: 30px;
+    
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover, a:focus {
+    
+    color: #808080;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
